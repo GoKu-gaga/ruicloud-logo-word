@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ruicloud-logo-word demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../ruicloud-logo-word.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+
+    <div class="vertical-section-container centered">
+      <h3>Basic ruicloud-logo-word Demo</h3>
+      <demo-snippet>
+        <template>
+          <ruicloud-logo-word></ruicloud-logo-word>
+        </template>
+      </demo-snippet>
+    </div>
+
+    <div class="vertical-section-container centered">
+      <h3>Black ruicloud-logo-word Demo</h3>
+      <demo-snippet>
+        <template>
+          <ruicloud-logo-word class="black_rc"></ruicloud-logo-word>
+          <style is="custom-style">
+            ruicloud-logo-word.black_rc {
+              --rc-logo-word-color: black;
+            }
+          </style>
+        </template>
+      </demo-snippet>
+    </div>
+
+    <div class="vertical-section-container centered">
+      <h3>Blue ruicloud-logo-word Demo</h3>
+      <demo-snippet>
+        <template>
+          <ruicloud-logo-word class="blue_rc"></ruicloud-logo-word>
+          <style is="custom-style">
+            ruicloud-logo-word.blue_rc {
+              --rc-logo-word-color: #4fc3f7;
+            }
+          </style>
+        </template>
+      </demo-snippet>
+    </div>
+
+  </body>
+</html>
